@@ -1,0 +1,14 @@
+localhost:8080
+
+psql -d chitchat
+\l
+\dt
+\du
+\i filmname //°õ¦æ
+psql -f setup.sql -d chitchat
+
+\i C:\Users\mopack.chiou\go\src\Select.sql
+
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO mopack.chiou;
+GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO mopack.chiou;
+psql -f Select.sql -d chitchat

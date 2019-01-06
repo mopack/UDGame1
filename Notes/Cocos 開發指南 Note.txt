@@ -1,0 +1,12 @@
+cc.director.loadScene("MyScene");
+cc.game.addPersistRootNode(myNode);
+cc.game.removePersistRootNode(myNode);
+
+cc.director.loadScene("MyScene", onSceneLaunched);
+cc.director.preloadScene("table", function () {
+    cc.log("Next scene preloaded");
+});
+
+
+
+

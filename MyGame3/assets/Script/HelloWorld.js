@@ -19,4 +19,8 @@ cc.Class({
     update: function (dt) {
 
     },
+
+    clickevent: function(){
+        this.label.string = "HI";
+    }
 });

@@ -8,4 +8,4 @@
  psql -f xxx.sql -d udgame1
 
 --------------------------------------------
-psql -f setup.sql -d chitchat
+psql -f setup.sql -d udgame1

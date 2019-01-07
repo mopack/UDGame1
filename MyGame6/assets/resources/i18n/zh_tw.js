@@ -7,5 +7,7 @@ window.i18n.languages.zh_tw={
         apply: '確定',
         settings: '設定',
         start: '開始',
+        score: '楓幣:',
+        chat: '聊天室',
     },
 };

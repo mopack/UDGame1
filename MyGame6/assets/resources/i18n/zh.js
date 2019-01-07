@@ -7,5 +7,7 @@ window.i18n.languages.zh={
         apply:'应用',
         settings: '设置',
         start: '开启',
+        score: '枫币:',
+        chat: '聊天室',
     },
 };

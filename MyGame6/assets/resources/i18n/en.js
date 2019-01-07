@@ -7,5 +7,7 @@ window.i18n.languages.en={
         apply: 'Apply',
         settings: 'Settings',
         start: 'Start',
+        score: 'Coins:',
+        chat: 'Chat',
     },
 };

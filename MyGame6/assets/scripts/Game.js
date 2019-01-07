@@ -1,4 +1,12 @@
-const i18n = require('LanguageData');
+// Learn cc.Class:
+//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
+//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
+// Learn Attribute:
+//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
+//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
+// Learn life-cycle callbacks:
+//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
+//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
     extends: cc.Component,
@@ -91,13 +99,20 @@ cc.Class({
     },
 
     update: function (dt) {
-        i18n.updateSceneRenderers();
+        // 每帧更新计时器，超过限度还没有生成新的星星
+        // 就会调用游戏失败逻辑
+        if (this.timer > this.starDuration) {
+            //console.log(this.timer, this.starDuration);
+            this.gameOver();
+            return;
+        }
+        this.timer += dt;
     },
 
     gainScore: function () {
         this.score += 1;
         // 更新 scoreDisplay Label 的文字
-        this.scoreDisplay.string = this.score;
+        this.scoreDisplay.string = 'Score: ' + this.score;
         // 播放得分音效
         cc.audioEngine.playEffect(this.scoreAudio, false);
     },

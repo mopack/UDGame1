@@ -38,6 +38,8 @@ cc.Class({
             type: cc.AudioClip,
             default: null,
         },
+
+        webview: cc.WebView,
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -53,6 +55,15 @@ cc.Class({
         this.spawnNewStar();
         
         this.score = 0;
+    },
+
+    onBtnChatClicked: function() {
+        if(this.webview.enabled == true){
+            this.webview.enabled = false;
+        }else{
+            this.webview.enabled = true;
+        }
+        
     },
 
     spawnNewStar: function() {

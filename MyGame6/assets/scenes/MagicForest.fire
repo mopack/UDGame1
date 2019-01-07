@@ -41,8 +41,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.35379307115979075,
-      "y": 0.35379307115979075,
+      "x": 0.536250019073487,
+      "y": 0.536250019073487,
       "z": 1
     },
     "_quat": {
@@ -94,10 +94,10 @@
     "_level": 1,
     "_components": [
       {
-        "__id__": 27
+        "__id__": 28
       },
       {
-        "__id__": 28
+        "__id__": 29
       }
     ],
     "_prefab": null,
@@ -799,7 +799,7 @@
       }
     ],
     "_prefab": {
-      "__id__": 26
+      "__id__": 27
     },
     "_opacity": 255,
     "_color": {
@@ -1012,7 +1012,11 @@
     },
     "duration": 0.1,
     "zoomScale": 1.2,
-    "clickEvents": [],
+    "clickEvents": [
+      {
+        "__id__": 26
+      }
+    ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
     "_N$normalColor": {
@@ -1051,6 +1055,15 @@
       "__id__": 19
     },
     "_id": "641wSaJ4hMlLhmub50GXYT"
+  },
+  {
+    "__type__": "cc.ClickEvent",
+    "target": {
+      "__id__": 2
+    },
+    "component": "MagicForest",
+    "handler": "onBtnChatClicked",
+    "customEventData": ""
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1107,6 +1120,9 @@
     },
     "bgMusic": {
       "__uuid__": "f09e21b7-1c9d-4ba9-ae70-ca9ce03e43c0"
+    },
+    "webview": {
+      "__id__": 13
     },
     "_id": "9eYWRa/65BlLFSzU/tGcig"
   }

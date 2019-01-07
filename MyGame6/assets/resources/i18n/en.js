@@ -8,6 +8,6 @@ window.i18n.languages.en={
         settings: 'Settings',
         start: 'Start',
         score: 'Coins:',
-        chat: 'Chat',
+        chat: 'ChatRoom',
     },
 };

@@ -17,6 +17,7 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
     onBtnStartClicked: function() {
+        this.current = cc.audioEngine.pauseAll();
         cc.director.loadScene('MagicForest');
     },
     
@@ -28,12 +29,12 @@ cc.Class({
         if(Global.isFirstStart){
             Global.lang = 'en';
             Global.isFirstStart = false;
+            this.current = cc.audioEngine.play(this.bgMusic, true, 1);
         }
+        i18n.init(Global.lang);
     },
 
     start () {
-        i18n.init(Global.lang);
-        this.current = cc.audioEngine.play(this.bgMusic, true, 1);
     },
 
     // update (dt) {},

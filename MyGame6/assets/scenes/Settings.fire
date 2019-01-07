@@ -44,8 +44,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.4352752816480622,
-      "y": 0.4352752816480622,
+      "x": 0.5362500190734864,
+      "y": 0.5362500190734864,
       "z": 1
     },
     "_quat": {
@@ -1248,7 +1248,7 @@
       "__id__": 27
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_level": 0,
     "_components": [
       {
@@ -1389,7 +1389,7 @@
         "__id__": 33
       }
     ],
-    "_N$isChecked": true,
+    "_N$isChecked": false,
     "_id": "a4fshC5MJMaZrN7gVc+Lam"
   },
   {
@@ -2045,7 +2045,7 @@
       "__id__": 26
     },
     "_enabled": true,
-    "allowSwitchOff": true,
+    "allowSwitchOff": false,
     "_id": "74PBo4ughIpL5r6FM9o/fx"
   },
   {

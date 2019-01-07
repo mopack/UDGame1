@@ -16,7 +16,6 @@ cc.Class({
             default: [],
             type: cc.Toggle
         },
-
     },
 
     // use this for initialization
@@ -32,15 +31,9 @@ cc.Class({
         var Lang = '';
 
         switch(index){
-            case 0: 
-                Lang = 'en';
-                break;
-            case 1: 
-                Lang = 'zh_tw'; 
-                break;
-            case 2: 
-                Lang = 'zh';
-                break;
+            case 0: Lang = 'en'; break;
+            case 1: Lang = 'zh_tw'; break;
+            case 2: Lang = 'zh'; break;
         }
         Global.lang = Lang;
         i18n.init(Lang);       

@@ -1,38 +1,52 @@
 const i18n = require('LanguageData');
+var Global = require("Global");
+
 
 cc.Class({
     extends: cc.Component,
 
     properties: {
         title: cc.Label,
-        buttonOKLabel: cc.Label,
         radioButtonEventString: cc.Label,
+        
+        LabelBack: cc.Label,
+        ButtonBack: cc.Button,
 
         radioButton: {
             default: [],
             type: cc.Toggle
         },
+
     },
 
     // use this for initialization
     onLoad: function () {
-        i18n.init('en');
+    },
+
+    onBtnBackClicked: function() {
+        cc.director.loadScene('Login');
     },
 
     radioButtonClicked: function(toggle) { //by ISO 639
         var index = this.radioButton.indexOf(toggle);
+        var Lang = '';
+
         switch(index){
             case 0: 
-                i18n.init('en');
+                Lang = 'en';
                 break;
             case 1: 
-                i18n.init('zh_tw'); 
+                Lang = 'zh_tw'; 
                 break;
             case 2: 
-                i18n.init('zh'); 
+                Lang = 'zh';
                 break;
         }
-        this.title.string = i18n.t('label.pleaseSelectLang');
-        this.buttonOKLabel.string = i18n.t('label.apply');
+        Global.lang = Lang;
+        i18n.init(Lang);       
     },
+
+    update: function(){
+        i18n.updateSceneRenderers();
+    }
 });

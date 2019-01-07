@@ -5,5 +5,7 @@ window.i18n.languages.zh_tw={
     label: {
         pleaseSelectLang: '選擇您玩遊戲時要使用的語言:',
         apply: '確定',
+        settings: '設定',
+        start: '開始',
     },
 };

@@ -4,6 +4,8 @@ window.i18n.languages.zh={
 // write your key value pairs here
     label: {
         pleaseSelectLang: '选择您玩游戏时要使用的语言:',
-        apply:'应用', 
+        apply:'应用',
+        settings: '设置',
+        start: '开启',
     },
 };

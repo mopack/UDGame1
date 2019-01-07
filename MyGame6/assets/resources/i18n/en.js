@@ -5,5 +5,7 @@ window.i18n.languages.en={
     label: {
         pleaseSelectLang: 'Select the language you wish to play this game in:',
         apply: 'Apply',
+        settings: 'Settings',
+        start: 'Start',
     },
 };

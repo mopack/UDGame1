@@ -1,0 +1,5 @@
+const i18n = require('LanguageData');
+
+i18n.init('zh');
+this.label.string = i18n.t('label.hello');
+this.display.textKey = i18n.t("cases/02_ui/03_button/SimpleButton.js.1");

@@ -1,0 +1,62 @@
+2019-01-07T05:58:39.322Z - normal: Load ~/.CocosCreator/settings.json
+2019-01-07T05:58:39.325Z - normal: checking language setting...
+2019-01-07T05:58:39.325Z - normal: Language: zh
+2019-01-07T05:58:40.994Z - success: protocol editor-framework registered
+2019-01-07T05:58:40.994Z - success: protocol app registered
+2019-01-07T05:58:40.994Z - success: protocol theme registered
+2019-01-07T05:58:40.994Z - success: protocol packages registered
+2019-01-07T05:58:40.994Z - success: protocol unpack registerred
+2019-01-07T05:58:40.994Z - success: protocol disable-commonjs registerred
+2019-01-07T05:58:41.425Z - normal: connected!
+2019-01-07T05:58:41.427Z - normal: Check project C:\GitHub\UDGame1\MyGame4-Completed
+2019-01-07T05:58:41.430Z - normal: Initializing project C:\GitHub\UDGame1\MyGame4-Completed
+2019-01-07T05:58:41.434Z - normal: Initializing Cocos2d
+2019-01-07T05:58:42.103Z - normal: Initializing Asset Database
+2019-01-07T05:58:42.158Z - success: protocol uuid registerred
+2019-01-07T05:58:42.159Z - success: protocol db registerred
+2019-01-07T05:58:42.159Z - success: protocol thumbnail registerred
+2019-01-07T05:58:42.159Z - normal: Loading editor/builtin packages
+2019-01-07T05:58:42.327Z - success: assets loaded
+2019-01-07T05:58:42.329Z - success: builder loaded
+2019-01-07T05:58:42.332Z - success: cocos-analytics loaded
+2019-01-07T05:58:42.337Z - success: console loaded
+2019-01-07T05:58:42.388Z - success: fb-instant-games loaded
+2019-01-07T05:58:42.390Z - success: google-instant-games loaded
+2019-01-07T05:58:42.394Z - success: hierarchy loaded
+2019-01-07T05:58:42.398Z - success: inspector loaded
+2019-01-07T05:58:42.399Z - success: keystore loaded
+2019-01-07T05:58:42.403Z - success: node-library loaded
+2019-01-07T05:58:42.407Z - success: package-asset loaded
+2019-01-07T05:58:42.408Z - success: preferences loaded
+2019-01-07T05:58:42.410Z - success: project-exporter loaded
+2019-01-07T05:58:42.429Z - success: project-importer loaded
+2019-01-07T05:58:42.432Z - success: project-settings loaded
+2019-01-07T05:58:42.436Z - success: ui-kit loaded
+2019-01-07T05:58:42.441Z - success: scene loaded
+2019-01-07T05:58:42.442Z - success: sprite-editor loaded
+2019-01-07T05:58:42.446Z - success: store loaded
+2019-01-07T05:58:42.450Z - success: timeline loaded
+2019-01-07T05:58:42.450Z - normal: Loading builtin packages
+2019-01-07T05:58:42.456Z - success: asset-db-debugger loaded
+2019-01-07T05:58:42.459Z - success: code-editor loaded
+2019-01-07T05:58:42.460Z - success: color-picker loaded
+2019-01-07T05:58:42.575Z - success: fb-audience-network loaded
+2019-01-07T05:58:42.581Z - success: fb-live-stream loaded
+2019-01-07T05:58:42.585Z - success: google-play-instant loaded
+2019-01-07T05:58:42.586Z - success: jsb-adapter loaded
+2019-01-07T05:58:42.591Z - success: oppo-runtime loaded
+2019-01-07T05:58:42.593Z - success: package-manager loaded
+2019-01-07T05:58:42.739Z - success: qqplay-adapter loaded
+2019-01-07T05:58:42.742Z - success: runtime-dev-tools loaded
+2019-01-07T05:58:42.745Z - success: sdkbox loaded
+2019-01-07T05:58:42.749Z - success: tester loaded
+2019-01-07T05:58:42.749Z - success: ui-grid loaded
+2019-01-07T05:58:42.751Z - success: ui-kit-preview-extra loaded
+2019-01-07T05:58:42.753Z - success: ui-kit-preview loaded
+2019-01-07T05:58:42.755Z - success: ui-tree loaded
+2019-01-07T05:58:42.762Z - success: vivo-runtime loaded
+2019-01-07T05:58:42.763Z - success: weapp-adapter loaded
+2019-01-07T05:58:44.007Z - normal: Loading packages
+2019-01-07T05:58:44.015Z - normal: Watching packages
+2019-01-07T05:58:44.842Z - normal: Run Application
+2019-01-07T05:58:46.137Z - success: preview server running at http://localhost:7456

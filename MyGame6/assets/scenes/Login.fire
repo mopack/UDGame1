@@ -15,6 +15,9 @@
     "_children": [
       {
         "__id__": 2
+      },
+      {
+        "__id__": 33
       }
     ],
     "_active": true,
@@ -355,7 +358,7 @@
     "_position": {
       "__type__": "cc.Vec3",
       "x": -146,
-      "y": -111,
+      "y": -240,
       "z": 0
     },
     "_scale": {
@@ -655,7 +658,7 @@
     "_position": {
       "__type__": "cc.Vec3",
       "x": 72,
-      "y": -111,
+      "y": -238,
       "z": 0
     },
     "_scale": {
@@ -938,8 +941,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 364,
-      "height": 72
+      "width": 266,
+      "height": 165
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -948,8 +951,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -27,
-      "y": 140,
+      "x": -12,
+      "y": 214,
       "z": 0
     },
     "_scale": {
@@ -983,6 +986,9 @@
     "_enabled": true,
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "cf4502dc-1486-4ae4-87c1-4071099925b4"
+    },
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -1081,5 +1087,79 @@
       "__id__": 18
     },
     "_id": "206Dkg8f5K3pRTVsztQBzB"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "webview",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 1,
+    "_components": [
+      {
+        "__id__": 34
+      }
+    ],
+    "_prefab": null,
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 232,
+      "g": 220,
+      "b": 198,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 300,
+      "height": 280
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 453,
+      "y": 291,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_rotationX": 0,
+    "_rotationY": 0,
+    "_quat": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_zIndex": 0,
+    "groupIndex": 0,
+    "_id": "957iEX4IJLRa4D3N62+Fgk"
+  },
+  {
+    "__type__": "cc.WebView",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 33
+    },
+    "_enabled": true,
+    "_useOriginalSize": false,
+    "_url": "http://localhost:8080/login",
+    "webviewEvents": [],
+    "_id": "a6TUGLMYxONKOQkv043TQB"
   }
 ]

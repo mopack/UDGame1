@@ -55,6 +55,8 @@ cc.Class({
         this.streamXHREventsToLabel(xhr, this.xhr, this.xhrResp, 'GET');
 
         xhr.open("GET", "https://httpbin.org/get?show_env=1", true);
+        //xhr.open("GET", "http://localhost:8080/static/json/get.json?show_env=1", true);
+
         if (cc.sys.isNative) {
             xhr.setRequestHeader("Accept-Encoding","gzip,deflate");
         }

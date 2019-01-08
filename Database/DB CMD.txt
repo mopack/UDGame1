@@ -1,0 +1,11 @@
+1. PostgreSQL 下載
+2. 設定環境參數： PATH += C:\Progra~1\PostgreSQL\pg11\bin
+3. 設定使用者：
+ createuser --createdb --username postgres --no-createrole --pwprompt  mopack.chiou
+4. 設定資料庫
+ createdb chitchat
+5. 執行任何sql文件：
+ psql -f xxx.sql -d chitchat
+
+--------------------------------------------
+psql -f setup.sql -d chitchat
